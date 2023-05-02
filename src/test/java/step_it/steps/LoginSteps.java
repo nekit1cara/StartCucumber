@@ -1,0 +1,25 @@
+package step_it.steps;
+
+//import com.step_it.pages.LoginPage;
+//import com.step_it.pages.MainPage;
+import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import org.step_it.pages.LoginPage;
+import org.step_it.pages.MainPage;
+
+@Slf4j
+@AllArgsConstructor
+public class LoginSteps {
+    private LoginPage loginPage;
+    private MainPage mainPage;
+
+    public void login(String username, String password) {
+        log.info("User logs in to app with username: {} and password: {}", username, password);
+        loginPage.login(username, password);
+    }
+
+    public void logout() {
+        log.info("User logs out from app");
+        mainPage.logout();
+    }
+}
