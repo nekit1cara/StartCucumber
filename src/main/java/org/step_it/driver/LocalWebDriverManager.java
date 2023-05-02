@@ -1,13 +1,13 @@
 package org.step_it.driver;
 
 
-    import io.github.bonigarcia.wdm.WebDriverManager;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
-    import org.openqa.selenium.support.events.WebDriverEventListener;
+import org.openqa.selenium.support.events.WebDriverEventListener;
 
-    import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeUnit;
 
     public class LocalWebDriverManager {
         private static WebDriver driver;

@@ -1,9 +1,9 @@
 package step_it.hooks;
 
-import io.cucumber.java.*;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 import lombok.extern.slf4j.Slf4j;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.step_it.utils.PropertyReader;
 
 import static org.step_it.driver.LocalWebDriverManager.getDriver;

@@ -3,7 +3,6 @@ package org.step_it.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.w3c.dom.html.HTMLInputElement;
 
 import java.util.List;
 import java.util.NoSuchElementException;
